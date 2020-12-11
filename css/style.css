@@ -6,12 +6,19 @@
 
 .logo{
     width: 20%;
-    padding: 2%;
+    padding: 0%;
+
+}
+
+.Aboutme{
     text-align: center;
+    font-family: "TS Block";
+    padding: 2%;
+    font-size: 30px;
 }
 
 .heroImg{
-    height: 900px;
+    height: 1000px;
     padding: 0px;
     float: center;
     text-align: right;
@@ -19,10 +26,13 @@
 }
 
 .content{
-    width: 900px;
+    width: 1160px;
     margin: 0 auto;
-   
-
+    float: center;
+    text-align: left;
+    font-family: "TS Block";
+    font-size: 20px;
+    
 }
 
 .Skills{
@@ -39,32 +49,55 @@
 }
 
 nav{
-    width: 72%;
-    padding: 1%;
+    width: 68%;
+    padding: 5%;
+    font-family: "TS Block";
+    font-size: 22px;
+    color: #2b2b2b;
+    position: absolute;
+    right: -300px;
+    
+    
     
 }
 
+h1 {
+    color: #2b2b2b;
+}
+
 ul{
-    width: 20%;
-    margin-left: auto;
+    width: 100%;
+    
+    
     
 }
 
 body{
-    background-color: black;
-    color: #08308a;
+    background-color: #FAF8F4;
+    color: #7C7C79;
 
 }
 
 footer{
-    background-color: black;
+    background-color: #FAF8F4;
     width: 100%;
     padding: 0%;
     text-align: center;
-
+    font-family: "TS Block";
+    color: #2b2b2b;
+    
 }
 
 footer > ul {
+    text-align: center;
     display: inline-block; 
-    vertical-align: top;
+
+    
+    
 }
+@font-face {
+    font-family: "TS-Block";
+    src: url(/Users/Gavin/Desktop/MyCode/EGavinG.github.io/EGavinG.github.io/font/TS_Block_Bold_copy.ttf) format("opentype");
+
+}
+
