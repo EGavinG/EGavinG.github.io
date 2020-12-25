@@ -18,7 +18,7 @@ $(document).ready(function () {
     $(".button").click(
       function () {
         $(this).css({
-          background: '#7C7C79',
+          background: '#2B2B2B',
           color: '#FAF8F4'
         });
       }
