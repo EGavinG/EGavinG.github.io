@@ -2,6 +2,9 @@ body {
 	font-family: 'Archivo Black', sans-serif;
 }
 
-section {
+section,
+footer {
+	font-size: 18px;
+	text-align: center;
 	width: 100%;
 }
