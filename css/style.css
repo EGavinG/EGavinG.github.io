@@ -48,6 +48,10 @@ footer {
 	text-align: center;
 }
 
+.contact img {
+	width: 100%;
+}
+
 .centered {
 	position: absolute;
 	top: 45%;
