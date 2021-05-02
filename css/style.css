@@ -49,7 +49,7 @@ footer {
 }
 
 .contact img {
-	width: 100%;
+	width: 80%;
 }
 
 .centered {
@@ -70,4 +70,10 @@ footer {
 .projects div {
 	padding-left: 10px;
 	padding-right: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+	.contact img {
+		display: none;
+	}
 }
