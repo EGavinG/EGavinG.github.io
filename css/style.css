@@ -9,6 +9,10 @@ header {
 	display: inline-block;
 }
 
+header img {
+	height: 300px;
+}
+
 nav {
 	margin-top: 90px;
 	font-size: 20px;
