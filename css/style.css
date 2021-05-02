@@ -1,10 +1,41 @@
 body {
+	color: #2b2b2b;
+	background-color: #faf8f4;
 	font-family: 'Archivo Black', sans-serif;
+}
+
+header {
+	width: 100%;
+	display: inline-block;
+}
+
+nav {
+	margin-top: 90px;
+	font-size: 20px;
+	float: right;
+	width: 30%;
+	overflow: hidden;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav a {
+	color: #2b2b2b;
+	float: left;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
 }
 
 section,
 footer {
+	width: 100%;
 	font-size: 18px;
 	text-align: center;
-	width: 100%;
+}
+
+.logo {
+	float: left;
 }
