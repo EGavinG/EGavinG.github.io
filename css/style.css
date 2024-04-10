@@ -1,86 +1,86 @@
 body {
-	padding-left: 20px;
-	padding-right: 20px;
-	color: #faf8f4;
-	background-color: #05070b;
-	font-family: 'Archivo Black', sans-serif;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #faf8f4;
+  background-color: #05070b;
+  font-family: "Archivo Black", sans-serif;
 }
 
 p {
-	line-height: 10px;
+  width: 500px;
 }
 
 header {
-	width: 100%;
-	display: inline-block;
+  width: 100%;
+  display: inline-block;
 }
 
 header img {
-	height: 300px;
+  height: 300px;
 }
 
 nav {
-	margin-top: 90px;
-	font-size: 20px;
-	float: right;
-	width: 30%;
-	overflow: hidden;
+  margin-top: 90px;
+  font-size: 20px;
+  float: right;
+  width: 30%;
+  overflow: hidden;
 }
 
 nav ul {
-	list-style-type: none;
+  list-style-type: none;
 }
 
 nav a {
-	color: #faf8f4;
-	float: left;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
+  color: #faf8f4;
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 section {
-	margin-bottom: 100px;
-	width: 100%;
-	font-size: 18px;
-	text-align: center;
+  margin-bottom: 100px;
+  width: 100%;
+  font-size: 18px;
+  text-align: center;
 }
 
 .contact {
-	position: relative;
-	text-align: center;
+  position: relative;
+  text-align: center;
 }
 
 .contact img {
-	width: 80%;
+  width: 80%;
 }
 
 .centered {
-	position: absolute;
-	top: 45%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .logo {
-	float: left;
+  float: left;
 }
 
 .inline-block {
-	display: inline-block;
+  display: inline-block;
 }
 
 .projects div {
-	padding-left: 10px;
-	padding-right: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 @media only screen and (max-width: 600px) {
-	p {
-		line-height: 20px;
-	}
+  p {
+    line-height: 20px;
+  }
 
-	.contact img {
-		display: none;
-	}
+  .contact img {
+    display: none;
+  }
 }
